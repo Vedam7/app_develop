@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GetBest 💬</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="logoutBtn" onclick="logout()">Logout</button>
+
+    <div id="loginScreen">
+      <h1 class="logo">GetBest 💬</h1>
+      <input type="text" id="username" placeholder="Enter your name">
+      <input type="password" id="password" placeholder="Enter password">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div id="chatScreen" class="hidden">
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send ➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
