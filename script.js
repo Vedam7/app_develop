@@ -1,6 +1,6 @@
 const USERS = {
-  "Vedanth": { password: "ved123" },
-  "Sahashra": { password: "sah123" }
+  "Vedanth": { password: "2007" },
+  "Sahashra": { password: "2007" }
 };
 
 let currentUser = "";
