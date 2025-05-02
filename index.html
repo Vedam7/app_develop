@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Letter Opening</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="envelope-container">
+    <div class="envelope">
+      <div class="envelope-front">
+        <p class="envelope-text">Click to open your letter 📨</p>
+      </div>
+      <div class="envelope-back">
+        <p class="envelope-text">This is a special letter just for you!</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Open the letter on click
+    document.querySelector('.envelope').addEventListener('click', function () {
+      window.location.href = 'letter-content.html';  // Redirect to the letter page
+    });
+  </script>
+</body>
+</html>
